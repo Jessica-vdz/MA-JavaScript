@@ -1,5 +1,10 @@
-﻿let year= new Date().getFullYear();
-let birth= new Date(2003,);
-let now= year - birth;
+﻿function age(){
+    let year= new Date().getFullYear();
+    let birth= 2003;
+    let now= year - birth;
+    
+    console.log("het is nu " + year + ". Ik ben geboren in " + birth + ". Wat betekent dat ik " + now + " jaar oud ben.");
+    return;
+}
 
-console.log("je bent nu " + now);
+console.log(age());
